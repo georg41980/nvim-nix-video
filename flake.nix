@@ -14,7 +14,7 @@
       ];
     };
     homeConfigurations."georg" = home-manager.lib.homeManagerConfiguration {
-      configuration = ./home.nix;
+      configuration = georg-nvim-nix-video.homeConfig;
       modules = [
         georg-nvim-nix-video.homeModule
       ];
