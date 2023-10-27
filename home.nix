@@ -1,8 +1,8 @@
 { config, pkgs, inputs, ... }:
 
 {
-  home.username = "vimjoyer";
-  home.homeDirectory = "/home/vimjoyer";
+  home.username = "georg";
+  home.homeDirectory = "/home/georg";
   home.stateVersion = "22.11"; # Please read the comment before changing.
 
   nixpkgs = {
