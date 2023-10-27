@@ -15,13 +15,13 @@
 
   outputs = { self, nixpkgs, ... }@inputs:
     let
-      system = "x86_64-linux";
+      system = "aarch64-linux";
       pkgs = import nixpkgs {
         inherit system;
       };
     in {
 
-      homeConfigurations."vimjoyer" =
+      homeConfigurations."georg" =
         inputs.home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
 
